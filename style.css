@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #333;
+  background: #FFA500;
   color: #fff;
   padding: 2rem;
   text-align: center;
@@ -27,7 +27,7 @@ footer {
 }
 /* Styling for the header and navigation links */
 header {
-  background: #333;
+  background: #FFA500;
   color: #fff;
   padding: 2rem;
   text-align: center;
