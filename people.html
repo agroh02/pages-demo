@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet the Team</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .person {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem;
+      max-width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .person img {
+      width: 100%;
+      border-radius: 50%;
+      max-width: 120px;
+    }
+    .person h3 {
+      margin: 0.5rem 0 0.2rem;
+    }
+    .person p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meet the Team</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="people.html">People</a>
+    </nav>
+  </header>
+
+  <main class="team">
+    <div class="person">
+      <img src="https://via.placeholder.com/120" alt="Jane Doe" />
+      <h3>Jane Doe</h3>
+      <p>Frontend Developer passionate about design and user experience.</p>
+    </div>
+    <div class="person">
+      <img src="https://via.placeholder.com/120" alt="John Smith" />
+      <h3>John Smith</h3>
+      <p>Backend Engineer who loves building scalable systems.</p>
+    </div>
+    <!-- Add more people here -->
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
+</body>
+</html>
