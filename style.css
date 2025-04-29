@@ -121,6 +121,6 @@ header {
 /* Responsive style for small screens (e.g., mobile) */
 @media (max-width: 600px) {
   .logo {
-    width: 100px;  /* Adjust this value to make the logo smaller on mobile */
+    width: 50px;  /* Adjust this value to make the logo smaller on mobile */
   }
 }
