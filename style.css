@@ -95,14 +95,3 @@ header nav a:visited {
     max-width: 90%;
   }
 }
-header {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 10px;
-}
-
-.logo {
-  width: 200px; /* adjust size as needed */
-  height: auto;
-}
