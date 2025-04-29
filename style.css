@@ -118,9 +118,9 @@ header {
   max-width: 800px;
   margin: 0 auto;
 }
-/* Responsive style for small screens (e.g., mobile) */
+/* Hide logo on screens smaller than 600px (mobile) */
 @media (max-width: 600px) {
   .logo {
-    width: 50px;  /* Adjust this value to make the logo smaller on mobile */
+    display: none;  /* This hides the logo */
   }
 }
