@@ -95,3 +95,26 @@ header nav a:visited {
     max-width: 90%;
   }
 }
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+}
+
+.header-center {
+  flex: 1;
+}
