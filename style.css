@@ -110,11 +110,17 @@ header {
 }
 
 .logo {
-  width: 200px; /* Adjust size as needed */
+  width: 300px; /* Adjust size as needed */
   height: auto;
 }
 
 .header-content {
   max-width: 800px;
   margin: 0 auto;
+}
+/* Responsive style for small screens (e.g., mobile) */
+@media (max-width: 600px) {
+  .logo {
+    width: 100px;  /* Adjust this value to make the logo smaller on mobile */
+  }
 }
