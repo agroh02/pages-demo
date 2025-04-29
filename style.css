@@ -109,6 +109,11 @@ header {
   left: 1rem;
 }
 
+.logo-container-right {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
 .logo {
   width: 350px; /* Adjust size as needed */
   height: auto;
