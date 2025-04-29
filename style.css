@@ -96,25 +96,25 @@ header nav a:visited {
   }
 }
 header {
+  position: relative;
   background: #333;
   color: #fff;
-  padding: 1rem 2rem;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
-.logo {
+.logo-container {
   position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 1rem;
+  left: 1rem;
+}
+
+.logo {
   width: 100px; /* Adjust size as needed */
   height: auto;
 }
 
-.header-center {
-  flex: 1;
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
 }
