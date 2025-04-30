@@ -129,3 +129,9 @@ header {
     display: none;  /* This hides the logo */
   }
 }
+.center-image {
+  display: block;
+  margin: 20px auto; /* Adjust top/bottom spacing as needed */
+  max-width: 100%;
+  height: auto;
+}
