@@ -53,15 +53,16 @@ header nav a:visited {
 .people-split-layout {
   display: flex;
   gap: 200px;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding: 4rem;
+  padding: 2rem;
 }
 
 .people-column {
   flex: 1;
   min-width: 300px;
   max-width: 600px;
+  margin: 0 20px;
 }
 
 .people-column h2 {
