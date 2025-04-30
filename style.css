@@ -52,7 +52,7 @@ header nav a:visited {
 /* Styling for the People Section */
 .people-split-layout {
   display: flex;
-  gap: 1000px;
+  gap: 300px;
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem;
