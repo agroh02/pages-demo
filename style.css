@@ -50,11 +50,32 @@ header nav a:visited {
   color: white;              /* Keep the visited links white */
 }
 /* Styling for the People Section */
-.people-container {
+.people-split-layout {
   display: flex;
+  gap: 40px;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 30px;
+  padding: 2rem;
+}
+
+.people-column {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.people-column h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Two-column layout for people inside each section */
+.people-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
 }
 
 .person {
