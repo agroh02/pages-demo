@@ -130,3 +130,7 @@ header {
   max-width: 100%;
   height: auto;
 }
+.person.light-blue { background-color: #ADD8E6; }
+.person.blue       { background-color: #4d8fd8; }
+.person.green      { background-color: #00ab41; }
+.person.orange     { background-color: #FFA53F; }
