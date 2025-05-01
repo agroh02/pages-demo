@@ -7,8 +7,8 @@ body {
 }
 
 header {
-  background: #333;
-  color: #fff;
+  background: #fff;
+  color: #000;
   padding: 2rem;
   text-align: center;
 }
@@ -27,8 +27,8 @@ footer {
 }
 /* Styling for the header and navigation links */
 header {
-  background: #333;
-  color: #fff;
+  background: #fff;
+  color: #000;
   padding: 2rem;
   text-align: center;
 }
@@ -36,18 +36,18 @@ header {
 /* Navigation links styling */
 header nav a {
   text-decoration: none; /* Remove underlines */
-  color: white;          /* Set the link color to white */
+  color: #000;          /* Set the link color to black */
   margin: 0 15px;        /* Add space between the links */
   font-size: 1.2rem;     /* Adjust the font size */
 }
 
 header nav a:hover {
   text-decoration: underline; /* Underline on hover */
-  color: #ddd;                /* Change color to light gray on hover */
+  color: #555;                /* Change color to light gray on hover */
 }
 
 header nav a:visited {
-  color: white;              /* Keep the visited links white */
+  color: #000;              /* Keep the visited links black */
 }
 /* Styling for the People Section */
 .people-split-layout {
